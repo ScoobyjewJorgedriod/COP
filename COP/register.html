@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account - The Church in Pagadian City</title>
+    <link rel="stylesheet" href="cop.css">
+</head>
+
+<body>
+
+<div class="register-container">
+    <div class="register-box">
+        <h2>REGISTER AS NEW ACCOUNT</h2>
+        <hr>
+        <form id="register-form">
+            <div class="message" id="register-message"></div>
+            <label for="first-name">First Name</label>
+            <input id="first-name" type="text" placeholder="First Name" required>
+            <label for="middle-name">Middle Name</label>
+            <input id="middle-name" type="text" placeholder="Middle Name">
+            <label for="last-name">Last Name</label>
+            <input id="last-name" type="text" placeholder="Last Name" required>
+            <div class="row">
+                <div>
+                    <label for="gender">Gender</label>
+                    <input id="gender" type="text" placeholder="Gender">
+                </div>
+                <div>
+                    <label for="civil-status">Civil Status</label>
+                    <input id="civil-status" type="text" placeholder="Civil Status">
+                </div>
+            </div>
+            <label>Birth Date</label>
+            <div class="row birth-row">
+                <input id="birth-year" type="text" placeholder="Year">
+                <input id="birth-month" type="text" placeholder="Month">
+                <input id="birth-day" type="text" placeholder="Day">
+            </div>
+            <label for="register-email">Email Address</label>
+            <input id="register-email" type="email" placeholder="Email Address" required>
+            <div class="row">
+                <div>
+                    <label for="register-password">Password</label>
+                    <input id="register-password" type="password" placeholder="Password" required>
+                </div>
+                <div>
+                    <label for="confirm-password">Confirm Password</label>
+                    <input id="confirm-password" type="password" placeholder="Confirm Password" required>
+                </div>
+            </div>
+            <button class="signup" type="submit">Sign Up</button>
+            <a class="secondary-link" href="index..html">Back to Login</a>
+        </form>
+    </div>
+</div>
+
+<footer>©2020 The Church in Pagadian City - Tuburan District</footer>
+
+<script src="cop.js"></script>
+</body>
+
+</html>

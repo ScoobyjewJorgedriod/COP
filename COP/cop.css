@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+
+    background:url("Churchbackground.jpg") center/cover no-repeat;
+    min-height:100vh;
+
+}
+
+.overlay{
+
+    min-height:100vh;
+
+    background:rgba(255,255,255,.55);
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.logo{
+
+    width:140px;
+
+    height:140px;
+
+    margin-bottom:10px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border: 4px solid rgba(79,104,170,0.25);
+
+}
+
+h1{
+
+    color:#1b3d90;
+
+    margin-bottom:10px;
+
+}
+
+.verse{
+
+    font-size:14px;
+
+    width:600px;
+
+    max-width:90%;
+
+    margin-bottom:20px;
+
+}
+
+.login-card{
+
+    width:340px;
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+}
+
+.login-card input{
+
+    width:100%;
+
+    height:45px;
+
+    margin-bottom:15px;
+
+    border:1px solid #bbb;
+
+    border-radius:6px;
+
+    padding-left:12px;
+
+}
+
+.login-card button{
+
+    width:100%;
+
+    height:45px;
+
+    border:none;
+
+    background:#4f68aa;
+
+    color:white;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+}
+
+.login-card a{
+
+    display:block;
+
+    margin-top:15px;
+
+    color:#1b3d90;
+
+    text-decoration:none;
+
+}
+
+.secondary-link{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    color:#4f68aa;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+body{
+
+    padding-bottom:70px;
+
+}
+
+footer{
+
+    position:fixed;
+
+    bottom:0;
+
+    width:100%;
+
+    background:#efefef;
+
+    text-align:center;
+
+    padding:12px;
+
+    font-weight:bold;
+
+}
+.register-container{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:rgba(255,255,255,.5);
+
+}
+
+.register-box{
+
+    width:500px;
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+}
+
+.register-box h2{
+
+    margin-bottom:15px;
+
+}
+
+.register-box hr{
+
+    margin-bottom:20px;
+
+}
+
+.register-box label{
+
+    display:block;
+
+    margin-top:15px;
+
+    margin-bottom:5px;
+
+    font-weight:bold;
+
+}
+
+.register-box input{
+
+    width:100%;
+
+    height:42px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    padding-left:10px;
+
+}
+
+.row{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.row div{
+
+    flex:1;
+
+}
+
+.signup{
+
+    width:100%;
+
+    margin-top:25px;
+
+    height:45px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#556fb4;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
